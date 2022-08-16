@@ -47,5 +47,10 @@ function magic() {
   console.log(person.hobby[2]);
   console.log(person.pet.name);
 
+  for(let key in person) {
+    console.log("key:", key);
+    console.log("value:", person[key]);
+  }
+
   // interacting with the DOM
 }

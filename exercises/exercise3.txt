@@ -1,0 +1,10 @@
+- create two person objects
+- give them a name, age and hobby list
+- calculate the total number of hobbeis combined
+- create an array of their hobbies, but only the unique values
+
+
+- create two more person objects
+- put all the person objects in array
+- loop over the array, and for every element:
+  - loop over the object and show the keys and values
