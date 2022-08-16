@@ -20,14 +20,16 @@
       <li>HTML</li>
       <li>CSS</li>
     </ul>
-    <form>
-      <input type="text" placeholder="name" />
-      <input type="number" />
-      <button onclick="alert('hi')">click</button>
+    <form id="myForm">
+      <input type="text" placeholder="name" id="name" />
+      <input type="number" id="favoriteNr" />
+      <input type="submit" value="send">
+    </form>
+    <p id="message"></p>
+    <button onclick="alert('hi')">click</button>
       <button onclick="console.log('can you find me?'); return false;">
         Lets play hide and seek
       </button>
-    </form>
     <button onclick="magic()">magic!</button>
     <button onclick="changePicture()">different img</button>
 

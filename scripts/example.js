@@ -1,3 +1,7 @@
+window.onload = function () {
+  const myForm = document.getElementById("myForm");
+  myForm.onsubmit = handleForm;
+}
 function magic() {
   // variables
   let nr = 5.6;
@@ -66,4 +70,17 @@ function changePicture() {
   } else {
     image.src = "./images/tea.jpeg";
   }
+}
+
+function handleForm() {
+  const favoriteNr = document.getElementById("favoriteNr");
+  const name = document.getElementById("name");
+  const message = document.getElementById("message");
+
+  console.log(favoriteNr.value);
+  console.log(name.value);
+  message.innerHTML = "Nice to meet you, " + name.value + ". That's a great number indeed: " + favoriteNr.value;
+  
+
+  return false;
 }
