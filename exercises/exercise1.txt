@@ -1,0 +1,13 @@
+Create a profile page with at least the following content:
+- name as a title
+- about you paragraph
+- a picture of you or something you like
+- a list of your hobbies
+- a table of your professional skills
+
+skill     level
+js        basic
+html      advanced
+
+
+- a link to your linkedin profile (else favorite website)
