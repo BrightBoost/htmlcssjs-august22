@@ -1,6 +1,11 @@
 <html>
   <head>
-    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" type="text/css" href="./styles/style.css" />
+    <script>
+      function magic() {
+        console.log("hello from up here");
+      }
+    </script>
   </head>
   <body>
     <h1>Good morning</h1>
@@ -23,8 +28,10 @@
     <form>
       <input type="text" placeholder="name" />
       <input type="number" />
-      <button>click</button>
+      <button onclick="alert('hi')">click</button>
+      <button onclick="console.log('can you find me?'); return false;">Lets play hide and seek</button>
     </form>
+    <button onclick="magic()">magic!</button>
     <img src="images/coffee.jpeg" width="200px" />
   </body>
 </html>
