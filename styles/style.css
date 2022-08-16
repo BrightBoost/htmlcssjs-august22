@@ -1,0 +1,30 @@
+h1 {
+  color: green;
+  font-family: "Courier New", Courier, monospace;
+}
+
+p {
+  color: pink;
+}
+
+.special.fancy {
+  color: gold;
+}
+
+.special {
+  color: blue;
+}
+
+#example {
+  color: purple;
+}
+
+p#example {
+  color: darkkhaki;
+}
+
+button {
+  padding: 15px;
+  border: 2px solid blue;
+  margin: 20px;
+}

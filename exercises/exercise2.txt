@@ -1,0 +1,7 @@
+- add a style.css to your html profile page
+- give all the text a custom font
+- give headings a custom color
+- give your list items a custom bullet
+- give your entire page a custom background image
+- give the page a custom padding
+- give the heading a dotted purple border (- - - - - )
