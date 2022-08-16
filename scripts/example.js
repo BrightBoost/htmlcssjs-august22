@@ -47,10 +47,23 @@ function magic() {
   console.log(person.hobby[2]);
   console.log(person.pet.name);
 
-  for(let key in person) {
+  for (let key in person) {
     console.log("key:", key);
     console.log("value:", person[key]);
   }
 
   // interacting with the DOM
+}
+
+function changePicture() {
+  // somehow get access to the img element
+  const image = document.getElementById("drink");
+  console.log(image);
+
+  // somehow update the src property
+  if (image.src.search("tea.jpeg") != -1) {
+    image.src = "./images/coffee.jpeg";
+  } else {
+    image.src = "./images/tea.jpeg";
+  }
 }
