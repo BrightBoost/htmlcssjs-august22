@@ -1,0 +1,11 @@
+- create a web page with a form
+- the form should contain a field for name
+- the form should contain a textbox for favorite fruit 
+  - challenge: dropdown or radioi buttons for thisi
+- the page should contain a picture of a fruit bowl
+- after submitting the form the following things should happen:
+  - the picture should get updated with the favorite fruit
+  - a message should appear saying: I like ** fav fruit ** too, ** name **!
+- make sure to have an images folder with fruits in there, give them
+  the name of the fruit as you'd expect it to be inputted in the textbox
+  
