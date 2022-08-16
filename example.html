@@ -1,8 +1,35 @@
 <html>
-  <head></head>
+  <head>
+    <style>
+      h1 {
+        color: green;
+        font-family: "Courier New", Courier, monospace;
+      }
+      p {
+        color: pink;
+      }
+      .special.fancy {
+        color: gold;
+      }
+      .special {
+        color: blue;
+      }
+
+      #example {
+        color: purple;
+      }
+
+      p#example {
+        color:darkkhaki
+      }
+    </style>
+  </head>
   <body>
     <h1>Good morning</h1>
-    <p>How are you?</p> 
+    <p>How are you?</p>
+    <p class="special">How are you?</p>
+    <p class="special fancy">How are you?</p>
+    <p id="example" class="special fancy">How are you?</p>
     <select>
       <option value="">Choose one</option>
       <option value="JavaScript">JS</option>
@@ -16,9 +43,9 @@
       <li>CSS</li>
     </ul>
     <form>
-      <input type="text" placeholder="name">
-      <input type="number">
+      <input type="text" placeholder="name" />
+      <input type="number" />
     </form>
-    <img src="images/coffee.jpeg" width="200px">
+    <img src="images/coffee.jpeg" width="200px" />
   </body>
 </html>
